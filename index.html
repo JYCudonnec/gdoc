@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+<title>CV responsive</title>
+<meta charset="UTF-8">
+<link rel = "stylesheet" href = "style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+    <div class="header">
+      <h1>Jean-Yves CUDONNEC</h1>
+      <p>Développeur Web</p><br><br><br>
+    </div>
+    <!-- Barre de navigation -->
+    <div class="navbar">
+      <a href="#form"><img src="Icon/iconform.png" height=20> <span class="navtxt">Formation</span></a>
+      <a href="#xp"><img src="Icon/iconexp.png" height=30><span class="navtxt">Expériences professionnelles</span></a>
+      <a href="#atout"><img src="Icon/iconatout.png" height=20><span class="navtxt">Atouts</span></a>
+      <a href="#hob"><img src="Icon/coeur.png" height=20><span class="navtxt">Centres d'intérêt</span></a>
+    </div>
+    <div class="menu">
+        <button class="menubutt">Menu</button>
+        <div class="liens">
+            <a href="#form">Formation</a>
+            <a href="#xp">Expériences professionnelles</a>
+            <a href="#atout">Atouts</a>
+            <a href="#hob">Centres d'intérets</a>
+    </div>
+</div>
+    
+    <!-- Contenu flexible -->
+    <div class="row">
+      <div class="side">
+        <div id="portrait">
+            <img src="Image/Portrait.png" alt="Portrait" title="moi" width="200px" height="200px"/>
+        </div>
+        
+        <div class="info">
+            <h3>Informations :</h3>
+            <p>Né le 19 mars 1986<br><br>
+              Adresse :<br>
+              32 route de Lannion<br>
+              22560 - TREBEURDEN<br><br>
+              Telephone :<br>
+              06 03 96 82 05<br><br>
+              Mail :<br>
+              <a href="mailto:jycudonnec@gmail.com">jycudonnec@gmail.com</a><br><br>
+              Permis B + véhicule</p>
+        </div>
+        <div><hr></div>
+      </div>
+      <div class="main">
+            <div id="propos"><hr>
+                <h3>A propos de moi</h3>
+                <article>
+                    <p>Sérieux, organisé, et curieux de tout</p>
+                    <p>De <strong>profil scientifique</strong>, initialement orienté vers le biomédical, je suis désormais en formation de Développeur Web à l'IUT de Lannion.</p>
+                    <p>De par mes études  et  mes expériences professionnelles, je dispose de connaissances approfondies en <strong>physiologie, biologie cellulaire et moléculaire</strong>.</p>
+                    <p>Au cours de mes études, j'ai eu l'occasion de travailler en tant qu'<strong>assistant d'éducation</strong>, métier auquel je me suis beaucoup attaché et que j'ai exercé 6 ans.</p>
+                    <p>Après un parcours aussi hétérogène qu'enrichissant, et quelques experiences autodidactes concluantes dans la <strong>programmation</strong>, j'ai décidé de me lancer dans une formation de qualité à l'IUT de Lannion, le <strong>Diplome Universitaire de Developpeur Web</strong>.</p>
+                    <p>C'est dans ce cadre que je suis actuellement à la recherche d'un <strong>stage</strong>, voire d'une <strong>alternance</strong>, afin de faire de ma passion, mon métier.</p>
+                    <p>J'espère avoir l'occasion de faire profiter votre équipe de mon <strong>dynamisme</strong> et de mes expériences diverses et variées.</p></article><br>
+                <hr id="form">
+            </div>
+            <div id = "forma">
+                <h2>Formation</h2>
+                <div id="iut">
+                    <div class="bulle">
+                        <ul>Au programme du <strong>Diplôme Universitaire de Développeur Web</strong>:
+                            <li>programmation Web coté client et serveur</li>
+                            <li>installation de serveurs web</li>
+                            <li>technologie et communication web</li>
+                            <li>conception graphique et IHM</li>
+                            <li>gestion de projet Internet</li>
+                            <li>anglais technique</li>
+                        </ul>
+                    </div>
+                    <div class="logo"><img src="Logo/IUT.jpg" height=50px width=50px alt="logo IUT de lannion"/></div>
+                    <p><a href="http://www.iut-lannion.fr/">IUT de Lannion</a><br/>Diplôme Universitaire de Développeur Web<br/><em>2020 - aujourd'hui</em></p>
+                </div>
+                <div id="oc">
+                    <div class="bulle">"Un puit de connaissances pour tout ceux qui souhaitent apprendre par eux-même, et que j'utilise encore régulièrement."
+                    </div>
+                    <div class="logo"><img src="Logo/OC.png" height=50px width=50px alt="logo Open Classroom"/></div>
+                    <p><a href="https://openclassrooms.com/fr/">Open Classroom</a><br/>Tutoriels Java, Python, Lua...<br/><em>2018 - aujourd'hui</em></p>
+                </div>
+                <div id="cnam">
+                    <div class="bulle">
+                        <ul>Au programme du diplôme d' <strong>Ingénieur en Biologie</strong>:
+                            <li>Phytotechnie et zootechnie</li>
+                            <li>Génie des bioprocédés</li>
+                            <li>Méthodes d'analyses et biotechnologies</li>
+                            <li>Biologie moléculaire et génétique</li>
+                            <li>Management et organisation des entreprises</li>
+                        </ul>
+                    </div>
+                    <div class="logo"><img src="Logo/Cnam.png" alt="logo CNAM"/></div>
+                    <p><a href="https://www.cnam-bretagne.fr/?gclid=EAIaIQobChMIuq6FmOuD6AIVVPhRCh23mAYiEAAYASAAEgL4MfD_BwE">Conservatoire National des Arts et Métiers (CNAM)</a><br/>Ingénieur en Biologie (non validé)<br/><em>2012 - 2015</em></p>
+                </div>
+                <div id="uco">
+                    <div class="bulle">
+                        <ul>Au programme de la <strong>Licence de Biologie</strong>, entre autres :
+                            <li>Biologie animale et végétale</li>
+                            <li>Microbiologie</li>
+                            <li>Biologie cellulaire</li>
+                            <li>Biologie moléculaire et génétique</li>
+                            <li>Etude des écosystemes</li>
+                            <li>Ethologie</li>
+                        </ul>
+                    </div>
+                    <div class="logo"><img src="Logo/UCO.png" style="margin-top:-20px" alt="logo UCO"/></div>
+                    <p><a href="https://guingamp.uco.fr/fr">Université Catholique de l'Ouest (UCO) - Guingamp</a><br/>Licence de Biologie, Parcours Biologie Cellulaire et Physiologie<br/><em>2006-2009</em></p>
+                </div>
+                <div id="ubo">
+                    <div class="bulle">
+                        <ul>Au programme du <strong>Premier Cycle Elementaire de Medecine</strong> :
+                            <li>Anatomie</li>
+                            <li>Physiologie</li>
+                            <li>Biochime</li>
+                            <li>Biophysique</li>
+                            <li>Biologie cellulaire et moléculaire</li>
+                            <li>Histoire de la médecine</li>
+                        </ul>
+                    </div>
+                    <div class="logo"><img src="Logo/UBO.jpg" alt="logo UBO"/></div>
+                    <p><a href="https://www.univ-brest.fr/medecine/">Faculté de Médecine de Brest</a><br/>Premier Cycle Elémentaire de médecine<br/><em>2004 - 2006</em></p>
+                </div>
+                <div id="fld">
+                    <div class="bulle">"C'est ici, <strong>à Lannion</strong> que j'ai commencé mes études"
+                    </div>
+                    <div class="logo"><img src="Logo/Felix.jpg" alt="logo Felic Le Dantec"/></div>
+                    <p><a href="http://lycee-ledantec.fr/">Lycée Félix LeDantec - Lannion</a><br/>Bac S option maths, mention AB<br/><em>2004</em></p>
+                </div>
+            </div>
+            <hr id="xp">
+            <div id="exp">
+                <h2>Expériences professionnelles</h2>
+                    <details id="prog" closed="open">
+                    <summary>Travaux personnels : développement d'applications mobiles - 2019</summary> 
+                        <div class="bulle">"C'est tout à fait pas hasard, par curiosité, que je me suis mis à la <strong>programmation</strong>, et c'est rapidement devenu addictif."
+                        </div>
+                        <div>
+                            <div id="screen">
+                                <div id="slider">
+                                    <div id="slides">
+                                        <figure id="slide1">
+                                            <img src="Image/JDLV.gif" width=500px alt="Une première image">
+                                        </figure>
+                                        <figure id="slide1">
+                                            <img src="Image/arpg.gif" width=500px alt="Une première image">
+                                        </figure>
+                                        <figure id="slide2">
+                                            <img src="Image/space.gif" width=500px alt="Une deuxième image">
+                                        </figure>
+                                        <figure id="slide3">
+                                            <img src="Image/p4.gif"width=500px  alt="Une troisième image">
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                            <article>Initiation autodidacte à la programmation et aux PixelArt, développement d'applications et de jeux mobiles et tactiles, en Lua.<br>Quelques exemples :</article>
+                        </div></details><br>
+                    <details id="asen" closed="open" style="background-image: url(Image/Asen.jpg); background-size:cover;">
+                    <summary>Assistant d'éducation 2012 - 2018</summary>
+                        <div class="bulle">"Alors que ce n'était au début pour moi qu'un job étudiant, ce <strong>métier</strong> s'est vite avéré <strong>très enrichissant</strong>."
+                        </div>
+                        <div class="logo"><img src="Logo/logopavie.jpg" style="margin-top:-20px"/></div>
+                        
+                        <article><br> Voici, entre autres, quelques unes des missions qui m'ont été confiées :
+                        <ul><li>Accueillir et veiller à la bonne intégration des élèves du lycée.</li>
+                        <li>Encadrement des élèves sur le temps scolaire, lors des sorties, et en internat, surveillance des devoirs.</li>
+                        <li>Assurer le lien entre l'équipe pédagogique, les élèves, et les parents d'élèves.</li>
+                        <li>Connaître et faire respecter le rêglement intérieur.</li>
+                        <li>Veiller à l'assiduité des élèves, gérer les conflits, maintenir la discipline.</li>
+                        <li>Secrétaire de jurys de bac, et des réunions de l'équipe de Vie Scolaire.</li>
+                        <li>En internat, aide aux devoirs, animation d'activités, rappels des règles de vie en communauté...</li></ul></article>
+                        </details><br>
+                    <details id="lab" closed="open" style="background-image: url(Image/biochimie.jpg); background-size:cover;">
+                    <summary>Chargé de recherche / Technicien de Laboratoire</summary>
+                        <div id="lab3">
+                            <div class="bulle">""</div>
+                            <div class="logo"><img src="Logo/UCO.png" alt="logo UCO" style="margin-top:-20px"/></div>
+                        <p><br/>2008 - 2009 (5 mois)<br/>Travail d'étude : Elaboration d'un protocole d'analyse génétique des parasites de la coque <em>Cerastoderma Edule</em>.<br/><button type="button" onclick="alert('RESUME\nLa coque Cerastoderma edule est un animal très parasité. C’est de plus un élément important de l’écosystème de la baie de St Brieuc, tout comme ses parasites que l’on retrouve dans de nombreuses autres espèces. L’évolution des populations des parasites de la coque est donc un paramètre important pouvant être révélateur de dérèglements (climatique, toxicologique…) qu’il faut suivre avec attention. Ce suivi passe par un recensement méticuleux qui ne peut se faire que par observation à la loupe binoculaire. \nC’est dans cette optique que le travail d’étude s’est déroulé : nous avons cherché à mettre au point un protocole d’extraction et d’amplification de l’ADN permettant l’identification des parasites présents dans les coques. Deux protocoles d’extraction d’ADN ont été testés, suivis d’une amplification par PCR de l’ADNr 5,8S des parasites en utilisant des amorces spécifiques de la famille des Trématodes digéniens. Cette amplification est suivie d’une électrophorèse permettant en théorie de distinguer l’ADN provenant des différentes espèces de parasites en s’intéressant à la longueur des produits PCR : c’est la technique dite de Restriction Fragments Lenght Polymorphism (RFLP). En pratique, la présence d’ADN d’origine parasitaire amplifié a pu être mis en évidence mais l’identification n’a pas pu être effectué en raison de problèmes techniques.\nMots-clefs : Cerstoderma edule, Trematoda digenea, ARNr 5,8S, extraction d’ADN, PCR, electrophorèse, RFLP. ')">+ de détails</button></p>
+                        </div><hr>
+                        <div id="lab2">
+                        <div class="logo"><img src="Logo/LOGOmorvan.jpg" alt="logo CHRU Morvan" style="width:100px; margin-top:30px"/></div>
+                        <p><br>2008 (1 mois)<br>Stage en génie génétique : étude de la conformation de protéines membranaires impliquées dans certaines lymphopathies myéloïdes.<br><button type="button" onclick="alert('RESUME\nLes récepteurs Fc\u03b3RII constituent un groupe de trois récepteurs membranaires présents sur certains leucocytes et capables de fixer les IgG. Ils interviennent de manière significative dans l’évolution de la réponse immunitaire et la prolifération cellulaire. Si les conséquences fonctionnelles de ces récepteurs sont relativement bien connues, les mécanismes moléculaires qui en sont responsables et les différentes formes de Fc\u03b3RII présentes dans les cellules cancéreuses restent à l’étude. \nC’est dans cette optique que travaille le laboratoire dans lequel le stage s’est déroulé. Une extraction d’ARN suivie d’une transcription inverse et d’une réaction de polymérisation en chaîne de l’ADNc codant pour la β-actine a pu être réalisée. Puis, la présence de cette protéine a été mise en évidence dans plusieurs lignées de cellules cancéreuses par la méthode de Western-Blot. Ensuite, nous avons sous- cloné l’ADNc codant pour le récepteur Fc\u03b3RIIb2 dans un plasmide d’expression : une ligation de l’insert dans le plasmide a tout d’abord été réalisée puis une transformation bactérienne suivie d’une amplification et d’une analyse des clones recombinants. Enfin, l’orientation dans les plasmides des ADNc codant pour les Fc\u03b3RIIa et Fc\u03b3RIIb2 a pu être déterminée par digestion par des enzymes de restriction et électrophorèse. Nous avons ainsi pu observer que contrairement à l’ADNc de Fc\u03b3RIIa dont l’orientation semblait se faire aléatoirement, l’insertion de l’ADNc de Fc\u03b3RIIb2 ne se faisait que dans un seul sens.\nMots-clefs : Western-Blot, extraction d’ARN, Transcription inverse, PCR, Transformation bacterienne, ligation, cartographie de restriction')">+ de détails</button></p>
+                        </div><hr>
+                        <div id="lab1">
+                            <div class="logo"><img src="Logo/logoPLD.png" alt="logo CH Lannion"/></div>
+                            <p>2007 (2 semaines)<br>Stage analyse biomédicale : réalisation des différentes techniques pratiquées en laboratoire d'analyse médicale : numération et formule sanguine, antibiogramme, ELISA...</p>
+                        </div><hr>
+                    </details><br>
+                    <details id="sante" closed="open">
+                    <summary>Expériences diverses dans le domaine de la santé</summary>
+                        Ambulancier, préparateur en pharmacie, agent de service hospitalier...</details>
+                </div><br><br>
+            <hr id="atout">
+            <div id = "atouts">
+                <h2>Atouts</h2><br>
+                <article>
+                    <h3>Compétences techniques</h3>
+                    <ul>
+                        <li id="lang">Languages : HTML, CSS, JavaScript, PHP, Lua<div class="bulle">"Ce sont des compétences que j'ai déja mises en pratique lors de <strong>développement de sites Web </strong>ou<strong> d'applications</strong> "</div></li>
+                        <li id="bdd">Gestion de base de données SQL<div class="bulle">"Pratiquée au cours des nombreux TP de la formation de developpeur Web"</div></li>
+                        <li id="cnil">Attestation RGPD de la CNIL<div class="bulle">"Obtenue par le suivi de l'ensemble des modules du mooc de la CNIL"</div></li>
+                        <li id="ang">Anglais scientifique et technique<div class="bulle"></div></li>
+                    </ul>
+                </article>
+                <article>
+                    <h3>Compétences transversales</h3>
+                    <ul>
+                        <li id="ana">Raisonnement analytique, trouver des solutions innovantes<div class="bulle">"Ce sont des compétences que j'ai acquise au cours de mes expériences en <strong>laboratoire de recherche et analyses</strong> "</div></li>
+                        <li id="app">Volonté d'apprendre<div class="bulle">C'est ce qui m'a amené, entre autres, à la <strong>programmation d'applications</strong> "</div></li>
+                        <li id="resp">Sens des responsabilités<div class="bulle">C'était une qualité indispensable lorque j'étais <strong>assistant d'éducation</strong> avec, sous ma resonsabilité, des dizaines de lycéens, leur bien-être, et leurs problêmes</div></li>
+                        <li id="adapt">Capacité d'adaptation<div class="bulle">J'ai eu l'occasion d'exercer toutes sortes de métiers, dans des domaines et des conditions très différentes</div></li>
+                    </ul>
+                </article>
+        </div><br><hr>
+            <div id="hobbies">
+                <h2 id="hob">Centres d'intérêt</h2>
+                <div>
+                    <div id="jv">
+                        <div class="bulle">"Je suis un gamer depuis ma première Game-Boy !"</div>
+                        <img src="Icon/iconJV.JPG" alt="Icone de Jeu Video">
+                    </div>
+                    <div id="canivtt">
+                        <div class="bulle">"Quelques dizaines de km à notre compteur. Notre terrain de jeu favori : les chemins de forêt"</div>
+                        <img src="Icon/logocanivtt.png" alt="Icone de caniVTT">
+                    </div>
+                    <div id="metal">
+                        <div class="bulle">"Le Heavy Metal , c'est bien plus qu'un style musical.<br>Près de 150 concerts à mon actif"</div>
+                        <img src="Icon/iconmetal.JPG" alt="Icone de Heavy Metal">
+                    </div>
+                    <div id="guitare">
+                        <div class="bulle">"Je me suis mis à la guitare il y a 2 ans, et je m'efforce d'apprendre une mélodie ou un riff par semaine"</div>
+                        <img src="Icon/Iconguitar.png" alt="Icone de guitare">
+                    </div>
+                </div>
+
+          </div>
+      </div>
+    </div>
+
+    <div class="footer">
+        <div class="lien"><a href="#"><img src="Image/Asc.png" title="Retour en haut de la page"/></a></div>
+        <div class="fleche"><img src="Image/Gauche.png"/></div>
+        <img src="Image/Footmsg%20(1).png"/>
+        <div class="fleche"><img class="fleche" src="Image/Droite.png"/></div>
+        <div class="lien"><a href="mailto:jycudonnec@gmail.com"><img src="Image/Env.png" title="Envoyer un mail"/></a></div>
+    </div>
+
+</body>
+</html>
